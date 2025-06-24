@@ -1,0 +1,13 @@
+{
+  "preferences": {
+    "title": "స్వాగతం",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "language": "Language",
+    "fontSize": "Font Size",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large"
+  }
+}
