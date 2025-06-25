@@ -1,12 +1,12 @@
-import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import App from "../App";
 import MainLayout from "../layout/MainLayout";
 
 
-const isAuthenticated=()=>{
-    // return localStorage.getItem('token');
-    return true;
-}
+// const isAuthenticated=()=>{
+//     // return localStorage.getItem('token');
+//     return true;
+// }
 const router=createBrowserRouter([
     {
         path:'/',

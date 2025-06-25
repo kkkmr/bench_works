@@ -1,17 +1,17 @@
 import {
   createBrowserRouter,
   RouterProvider,
-  Navigate,
+  // Navigate,
 } from 'react-router-dom';
-import MainLayout from '../layout/MainLayout';
+// import MainLayout from '../layout/MainLayout';
 // import Login from '../pages/Login';
 // import Dashboard from '../pages/Dashboard';
 // import Settings from '../pages/Settings';
 // import ErrorPage from '../pages/ErrorPage';
 
-const isAuthenticated = () => {
-  return !!localStorage.getItem('token');
-};
+// const isAuthenticated = () => {
+//   return !!localStorage.getItem('token');
+// };
 
 const router = createBrowserRouter([
   {

@@ -1,10 +1,10 @@
 // import PreferencesPanel from "../features/preferences/preferencesPanel"
-import { useTranslation } from "react-i18next"
+// import { useTranslation } from "react-i18next"
 import Header from "../components/Header/Header";
 import "./MainLayout.css"
 
 export default function MainLayout(){
-  const { t } = useTranslation();
+//   const { t } = useTranslation();
 
     return (
         <div className="main-layout">
