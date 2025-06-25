@@ -10,10 +10,15 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    lng: 'en',
     resources: {
       en: { preferences: en_preferences },
       hindi: { preferences: hindi_preferences },
       telugu: { preferences: telugu_preferences },
+    },
+    detection: {
+      // disable localStorage or cookie detection
+      caches: [] 
     },
     fallbackLng: 'en',
     // ns: ['preferences'],

@@ -24,9 +24,9 @@ export default function PreferencesPanel() {
 
   return (
     <div className="p-4 space-y-4 border rounded-md shadow-md w-fit bg-white dark:bg-gray-800">
-      <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">
+      {/* <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">
         {t('preferences.title') || 'Preferences'}
-      </h2>
+      </h2> */}
 
       {/* Theme Toggle */}
       <div className="flex items-center gap-2">

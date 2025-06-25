@@ -13,7 +13,7 @@ type PreferencesState={
     fontSize:string;
     language:string;
     animation:Animation;
-    fontStyle:string;
+    fontFamily:string;
 }
 
 const initialState:PreferencesState={
@@ -21,7 +21,7 @@ const initialState:PreferencesState={
     fontSize:'lg',
     language:'en',
     animation:'medium',
-    fontStyle:'sansa'
+    fontFamily:'sansa'
 }
 
 const preferencesSlice = createSlice({
@@ -40,12 +40,12 @@ const preferencesSlice = createSlice({
         setAnimation:(state, action:PayloadAction<Animation>)=>{
             state.animation=action.payload;
         },
-        setFontStyle:(state, action:PayloadAction<string>)=>{
-            state.fontStyle=action.payload;
+        setFontFamily:(state, action:PayloadAction<string>)=>{
+            state.fontFamily=action.payload;
         }
 
     }
 })
 
-export const {setTheme, setFontSize, setLanguage, setAnimation, setFontStyle}=preferencesSlice.actions;
+export const {setTheme, setFontSize, setLanguage, setAnimation, setFontFamily}=preferencesSlice.actions;
 export default preferencesSlice.reducer;
