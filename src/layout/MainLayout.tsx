@@ -1,6 +1,8 @@
 // import PreferencesPanel from "../features/preferences/preferencesPanel"
 // import { useTranslation } from "react-i18next"
 import Header from "../components/Header/Header";
+import "./../styles/index.css"
+import "./../styles/fonts.css"
 import "./MainLayout.css"
 
 export default function MainLayout(){

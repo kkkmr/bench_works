@@ -9,6 +9,7 @@
 .header{
     grid-row: 1;
     grid-column: 1/span 2;
+    padding-inline:2rem;
 }
 
 .side-nav{
