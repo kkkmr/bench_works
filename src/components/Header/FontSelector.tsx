@@ -35,14 +35,23 @@ export default function FontSelector(){
         if(language=='en'){
             setFonts([...englishFonts]);
             setSelectedFont('roboto');
+            document.body.className='';
+            document.body.classList.add('roboto');
+            dispatch(setFontFamily('roboto'));
         }
         else if(language=='telugu'){
             setFonts([...teluguFonts]);
             setSelectedFont('serif-telugu');
+            document.body.className='';
+            document.body.classList.add('serif-telugu');
+            dispatch(setFontFamily('serif-telugu'));
         }
         else if(language=='hindi'){
             setFonts([...hindiFonts]);
             setSelectedFont('devanagari-hindi');
+            document.body.className='';
+            document.body.classList.add('devanagari-hindi');
+            dispatch(setFontFamily('devanagari-hindi'));
 
         }
     },[language]);
