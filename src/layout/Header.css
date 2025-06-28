@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    background-color: var(--bw-bg-primary);
+    align-items: center;
+    color:white;
+
+    /* .logo{
+
+    } */
+
+    .logo-name{
+        font-size: var(--bw-font-size-2xl);
+    }
+
+}

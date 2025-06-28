@@ -33,15 +33,14 @@ export default function Select({ label, value, options, onChanger,renderLabel,re
   },[])
 
   return (
-    <div className="relative max-w-xs" ref={selectContainerRef}>
-      <label className="text-xs font-medium px-2 text-white absolute left-1 -top-2 bg-primary rounded-xs dark:text-gray-200 mb-1 block">
+    <div className="select" ref={selectContainerRef}>
+      <label className="select-label">
         {label}
       </label>
-
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className="cursor-pointer flex items-center justify-between text-white w-full border border-white dark:border-gray-600 bg-primary dark:bg-gray-800 px-3 py-2 text-left text-sm dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="select-btn text-sm"
         aria-haspopup="listbox"
         aria-expanded={open}
       >
@@ -51,7 +50,7 @@ export default function Select({ label, value, options, onChanger,renderLabel,re
         </span>
 
         <FiChevronDown
-            className={`ml-2 text-white transition-transform duration-200 ${
+            className={`select-icon ${
             open ? 'rotate-180' : ''
             }`}
             size={18}
@@ -62,7 +61,7 @@ export default function Select({ label, value, options, onChanger,renderLabel,re
         <ul
           role="listbox"
           tabIndex={-1}
-          className="absolute z-10 mt-1 w-full rounded-xs border bg-white dark:bg-gray-900 shadow-lg focus:outline-none"
+          className="options-container"
         >
           {options.map((opt) => (
             <li
@@ -73,7 +72,7 @@ export default function Select({ label, value, options, onChanger,renderLabel,re
                 onChanger(opt.value);
                 setOpen(false);
               }}
-              className={`cursor-pointer px-3 py-2 text-sm hover:bg-blue-100 dark:hover:bg-blue-800 ${
+              className={`select-option ${
                 value === opt.value
                   ? 'bg-blue-50 dark:bg-blue-700 text-blue-700 dark:text-blue-200 font-medium'
                   : 'text-gray-900 dark:text-gray-100'

@@ -1,0 +1,23 @@
+.bw-bg-primary{
+    background-color: var(--bw-bg-primary-color);
+}
+
+.font-size-normal{
+    font-size: 16px;
+}
+
+.font-size-small{
+    font-size: 12px;
+}
+
+.font-size-extra-small{
+    font-size: 8px;
+}
+
+.font-size-large{
+    font-size: 20px;
+}
+
+.font-size-extra-large{
+    font-size: 24px;
+}

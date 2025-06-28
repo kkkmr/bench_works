@@ -1,25 +1,21 @@
 // import PreferencesPanel from "../features/preferences/preferencesPanel"
 // import { useTranslation } from "react-i18next"
-import Header from "../components/Header/Header";
-import "./../styles/index.css"
-import "./../styles/fonts.css"
-import "./MainLayout.css"
+import Header from "./Header";
+import SideNav from "./SideNave"
+import Footer from "./Footer";
+import { Outlet } from "react-router-dom";
 
 export default function MainLayout(){
 //   const { t } = useTranslation();
 
     return (
-        <div className="main-layout">
+        <div className="main-layout main typography">
             <Header/>
-            <div className="side-nav">Side Nav</div>
+            <SideNav/>
             <div className="content">
-                Content
+               <Outlet/>
             </div>
-            <div className="footer">
-                Footer
-            </div>
-            {/* <h1>{t('preferences.title')}</h1>
-            <PreferencesPanel/> */}
+            <Footer/>
         </div>
     )
 }

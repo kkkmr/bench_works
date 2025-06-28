@@ -1,8 +1,8 @@
 import { useDispatch, useSelector} from 'react-redux';
 import { useTranslation } from 'react-i18next';
-import { setLanguage } from '../../features/preferences/preferencesSlice';
-import type { RootState } from "./../../store";
-import Select from '../Select';
+import { setLanguage } from './preferences/preferencesSlice';
+import type { RootState } from "../store";
+import Select from '../components/Select';
 
 export default function LocaleSelector() {
   const dispatch = useDispatch();

@@ -1,6 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import App from "../App";
 import MainLayout from "../layout/MainLayout";
+import ToDo from "../pages/ToDo";
+import Components from "../pages/Components";
+// import Select from "../components/Select";
 
 
 // const isAuthenticated=()=>{
@@ -10,9 +13,20 @@ import MainLayout from "../layout/MainLayout";
 const router=createBrowserRouter([
     {
         path:'/',
-        element: <MainLayout />
+        element: <MainLayout />,
+        children:[
+            {
+                path:'/todo',
+                element:<ToDo/>
+            },
+            {
+                path:'/components',
+                element:<Components/>
+            }
+        ]
         // React.createElement(App)
-    }
+    },
+    
     // {
     //     path:'/',
     //     element: isAuthenticated()? <Navigate to="/dashboard"/>:<Login/>,

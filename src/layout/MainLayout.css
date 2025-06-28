@@ -1,15 +1,12 @@
-@import "tailwindcss";
-
 .main-layout{
     display:grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 7fr;
 }
 
 .header{
     grid-row: 1;
     grid-column: 1/span 2;
-    padding-inline:2rem;
 }
 
 .side-nav{
@@ -25,8 +22,4 @@
 .footer{
     grid-row:3;
     grid-column: 1/span 2;
-}
-
-.bg-primary{
-    background-color: #1e3a8a;
 }

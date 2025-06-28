@@ -1,0 +1,8 @@
+.side-nav{
+    background-color: var(--bw-bg-primary);
+    padding-right: 1rem;
+    padding-left:2rem ;
+    padding-block:1rem;
+    color:white;
+    height: 100vh;
+}

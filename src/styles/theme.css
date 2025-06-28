@@ -1,0 +1,45 @@
+.main{
+    --bw-bg-primary:var(--bw-blue-900);
+    --bw-border-primary:var(--bw-gray-400);
+    --bw-border-primary-hover:white;
+    --bw-box-shadow:var(--bw-vividblue-600);
+}
+
+/* .ocean{
+     --bw-bg-primary:var(--bw-gray-900);
+} */
+
+.dark{
+    --bw-bg-primary:var(--bw-gray-900);
+    --bw-border-primary:var(--bw-gray-400);
+    --bw-border-primary-hover:var(--bw-gray-500);  
+    --bw-box-shadow:var(--bw-vividblue-400);
+}
+
+.beach{
+    --bw-bg-primary: var(--bw-sand-100);
+    --bw-border-primary: var(--bw-ocean-300);
+    --bw-border-primary-hover: var(--bw-coral-400);
+    --bw-box-shadow: var(--bw-seafoam-500);
+}
+
+.summer{
+    --bw-bg-primary: var(--bw-lemonade-100);
+    --bw-border-primary: var(--bw-poolblue-400);
+    --bw-border-primary-hover: var(--bw-sunsetorange-500);
+    --bw-box-shadow: var(--bw-flamingopink-600);
+}
+
+.winter{
+    --bw-bg-primary: var(--bw-icegray-100);
+    --bw-border-primary: var(--bw-snowblue-300);
+    --bw-border-primary-hover: var(--bw-cranberry-400);
+    --bw-box-shadow: var(--bw-slate-600);
+}
+
+.tg{
+    --bw-bg-primary: var(--bw-deccanbrown-900); /* Deccan Brown 900 */
+    --bw-border-primary: var(--bw-pochampallypink-400); /* Pochampally Pink 400 */
+    --bw-border-primary-hover: var(--bwbonalu-yellow-500); /* Bonalu Yellow */
+    --bw-box-shadow: var(--bw-telanganablue-500); /* Telangana Blue */
+}
