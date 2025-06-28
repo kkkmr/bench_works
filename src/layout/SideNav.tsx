@@ -44,8 +44,8 @@ export default function SideNav() {
         {navItems.map(({ label, path }, i) => (
           <NavLink
             key={path}
-            to={path}
-            ref={el => navRefs.current[i] = el}
+            to={path+i} // dummy
+            // ref={el => navRefs.current[i] = el}
             className={({ isActive }) =>
               `px-4 py-2 rounded-md focus:outline-none focus-visible:ring-2 ring-offset-2 ring-green-500 transition-all duration-200 ease-in-out cursor-pointer
               ${isActive ? 'bg-[#3b82f6] text-white scale-[1.02]' : 'hover:bg-[#1e3a8a] hover:text-white'}`
