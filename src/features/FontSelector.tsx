@@ -3,50 +3,20 @@ import useAppSelector from "../hooks/useAppSelector"
 import { useDispatch } from "react-redux"
 import { useEffect, useState } from "react";
 import { setFontFamily } from './preferences/preferencesSlice';
+import { useTranslation } from "react-i18next";
 
 export default function FontSelector(){
 
     const dispatch=useDispatch();
-    const englishFonts=[
-        {label:'Roboto', value:'bw-roboto'},
-        {label:'Open Sans', value:'bw-open-sans'},
-        {label:'Montserrat', value:'bw-montserrat'},
-        {label:'Inter', value:'bw-inter'},
-        {label:'Dancing Script', value:'bw-dancing-script'},
-        {label:'Orbitron', value:'bw-orbitron'}
-    ]
+    const {t}=useTranslation();
 
-     const teluguFonts=[
-        {label:'సెరిఫ్ తెలుగు', value:'bw-serif-telugu'},
-        {label:'సాంస్ తెలుగు', value:'bw-sans-telugu'},
-        {label:'అనేక్ తెలుగు', value:'bw-anek-telugu'}
-    ]
-
-    const hindiFonts=[
-        {label:'देवनागरी हिंदी', value:'bw-devanagari-hindi'},
-        {label:'मातंगी', value:'bw-matangi'},
-        {label:'पॉप्पीन्स ', value:'bw-poppins'}
-    ]
-    const [fonts,setFonts]=useState<{label:string, value:string}[]>([...englishFonts]);
-    const [selectedFont,setSelectedFont]=useState<string>('bw-roboto');
+    const fontTypes=t('preferences.font.types', {returnObjects:true}) as {label:string,value:string}[];
+    const [selectedFont,setSelectedFont]=useState<string>(fontTypes[0].value);
     const language=useAppSelector(state=>state.preferences.language);
 
     useEffect(()=>{
-        if(language=='en'){
-            setFonts([...englishFonts]);
-            setSelectedFont('bw-roboto');
-            updateAtDocument('bw-roboto');
-        }
-        else if(language=='telugu'){
-            setFonts([...teluguFonts]);
-            setSelectedFont('bw-serif-telugu');
-            updateAtDocument('bw-serif-telugu');
-        }
-        else if(language=='hindi'){
-            setFonts([...hindiFonts]);
-            setSelectedFont('bw-devanagari-hindi');
-            updateAtDocument('bw-devanagari-hindi');
-        }
+            setSelectedFont(fontTypes[0].value);
+            updateAtDocument(fontTypes[0].value);
     },[language]);
 
     const updateAtDocument=(initialFont:string)=>{
@@ -70,5 +40,5 @@ export default function FontSelector(){
         return <span className={`${value}`}>{label}</span>
     }
     
-    return <Select label='Fonts' value={selectedFont} options={fonts} onChanger={handleChange} renderLabel={createLabel} renderOption={createOption}/>
+    return <Select label={t('preferences.font.label')} value={selectedFont} options={fontTypes} onChanger={handleChange} renderLabel={createLabel} renderOption={createOption}/>
 }

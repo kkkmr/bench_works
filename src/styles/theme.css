@@ -5,10 +5,6 @@
     --bw-box-shadow:var(--bw-vividblue-600);
 }
 
-/* .ocean{
-     --bw-bg-primary:var(--bw-gray-900);
-} */
-
 .dark{
     --bw-bg-primary:var(--bw-gray-900);
     --bw-border-primary:var(--bw-gray-400);

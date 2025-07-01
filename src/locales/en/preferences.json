@@ -1,13 +1,98 @@
 {
   "preferences": {
-    "title": "Welcome",
-    "theme": "Theme",
-    "light": "Light",
-    "dark": "Dark",
-    "language": "Language",
-    "fontSize": "Font Size",
-    "small": "Small",
-    "medium": "Medium",
-    "large": "Large"
+    "title": "Bench Works",
+    "language":"Language",
+    "theme": {
+      "label":"Themes",
+      "types":[
+        {
+          "label":"Light",
+          "value":"light"
+        },        
+        {
+          "label":"Dark",
+          "value":"dark"
+        },
+        {
+          "label":"Beach",
+          "value":"beach"
+        },
+        {
+          "label":"Winter",
+          "value":"winter"
+        },
+        {
+          "label":"Summer",
+          "value":"summer"
+        }
+      ]
+    },
+    "font": {
+      "label":"Fonts",
+      "types":[
+        {
+          "label":"Roboto", 
+          "value":"bw-roboto"
+        },
+        {
+          "label":"Open Sans", 
+          "value":"bw-open-sans"
+        },
+        {
+          "label":"Montserrat", 
+          "value":"bw-montserrat"
+        },
+        {
+          "label":"Inter", 
+          "value":"bw-inter"
+        },
+        {
+          "label":"Dancing Script", 
+          "value":"bw-dancing-script"
+        },
+        {
+          "label":"Orbitron", 
+          "value":"bw-orbitron"
+        }
+      ]
+    },
+    "fontSize": {
+      "label":"Font Size",
+      "types":[
+        {
+          "label":"Extra small", 
+          "value":"font-size-extra-small"
+        },
+        {
+          "label":"Small", 
+          "value":"font-size-small"
+        },
+        {
+          "label":"Normal", 
+          "value":"font-size-normal"
+        },
+        {
+          "label":"Large", 
+          "value":"font-size-large"
+        },
+        {
+          "label":"Extra large", 
+          "value":"font-size-extra-large"
+        }
+      ]
+    }
+  },
+  "sideNav":{
+    "title":"Side Nav",
+    "sideNavMenu":[
+      {
+        "label":"To-Do",
+        "path":"/todo"
+      },
+      {
+        "label":"Components",
+        "path":"/components"
+      }
+    ]
   }
 }

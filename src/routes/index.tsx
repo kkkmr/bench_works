@@ -1,7 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import App from "../App";
 import MainLayout from "../layout/MainLayout";
-import ToDo from "../pages/ToDo";
+// import ToDo from "../pages/ToDo";
+import ToDo from "../pages/ToDo/ToDo"
+import Home from "../pages/Home"
 import Components from "../pages/Components";
 // import Select from "../components/Select";
 
@@ -10,14 +12,19 @@ import Components from "../pages/Components";
 //     // return localStorage.getItem('token');
 //     return true;
 // }
+
 const router=createBrowserRouter([
     {
         path:'/',
         element: <MainLayout />,
         children:[
             {
+                path:'/',
+                element:<Home/>
+            },
+            {
                 path:'/todo',
-                element:<ToDo/>
+                element:<ToDo />
             },
             {
                 path:'/components',

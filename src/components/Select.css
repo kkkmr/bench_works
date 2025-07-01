@@ -1,7 +1,7 @@
 .select{
         position: relative;
         font-size: 1em;
-        max-width: 20em;
+        /* max-width: 20em; */
 
         .select-label{
                 position: absolute;
@@ -25,7 +25,8 @@
                 font-size: var(--bw-font-size-sm);
                 line-height: var(--bw-line-height-normal);
                 padding-inline: var(--bw-padding-sm);
-                padding-block:var(--bw-padding-xs);
+                padding-top:var(--bw-padding-sm);
+                padding-bottom: var(--bw-padding-xs);
                 text-align:left;
                 width: 100%;
                 /*   text-sm */

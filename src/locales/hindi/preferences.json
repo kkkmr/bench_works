@@ -1,13 +1,87 @@
 {
   "preferences": {
-    "title": "स्वागत",
-    "theme": "Theme",
-    "light": "Light",
-    "dark": "Dark",
+    "title": "बेंच वर्क्स",
     "language": "भाषा",
-    "fontSize": "Font Size",
-    "small": "Small",
-    "medium": "Medium",
-    "large": "Large"
+    "theme": {
+      "label":"थीम",
+      "types":[
+        {
+          "label":"लाइट",
+          "value":"light"
+        },        
+        {
+          "label":"डार्क",
+          "value":"dark"
+        },
+        {
+          "label":"बीच",
+          "value":"beach"
+        },
+        {
+          "label":"समर",
+          "value":"summer"
+          
+        },
+        {
+          "label":"विंटर",
+          "value":"winter"
+        }
+      ]
+    },
+    "font": {
+      "label":"फॉण्ट",
+      "types":[
+        {
+          "label":"देवनागरी हिंदी", 
+          "value":"bw-devanagari-hindi"
+        },
+        {
+          "label":"मातंगी", 
+          "value":"bw-matangi"
+        },
+        {
+          "label":"पॉप्पीन्स", 
+          "value":"bw-poppins"
+        }
+      ]
+    },
+    "fontSize": {
+      "label":"फॉण्ट साइज",
+      "types":[
+        {
+          "label":"अतिरिक्त छोटा", 
+          "value":"font-size-extra-small"
+        },
+        {
+          "label":"छोटा", 
+          "value":"font-size-small"
+        },
+        {
+          "label":"साधारण",
+          "value":"font-size-normal"
+        },
+        {
+          "label":"बड़ा", 
+          "value":"font-size-large"
+        },
+        {
+          "label":"बहुत बड़ा", 
+          "value":"font-size-extra-large"
+        }
+      ]
+    }
+  },
+  "sideNav":{
+    "title":"Side Nav",
+    "sideNavMenu":[
+      {
+        "label":"टू-डू",
+        "path":"/todo"
+      },
+      {
+        "label":"कॉम्पोनेंट्स",
+        "path":"/components"
+      }
+    ]
   }
 }

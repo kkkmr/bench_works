@@ -3,7 +3,7 @@ import preferencesReducer from "../features/preferences/preferencesSlice"
 
 export const store=configureStore({
     reducer:{
-        preferences:preferencesReducer
+        preferences:preferencesReducer,
     }
 })
 

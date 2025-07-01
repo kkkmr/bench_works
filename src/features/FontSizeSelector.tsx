@@ -2,17 +2,13 @@ import Select from "../components/Select"
 import { useDispatch } from "react-redux"
 import {  useState } from "react";
 import { setFontSize } from './preferences/preferencesSlice';
+import { useTranslation } from "react-i18next";
 
 export default function FontSizeSelector(){
 
     const dispatch=useDispatch();
-    const fontSizes=[
-        {label:'Extra small', value:'font-size-extra-small'},
-        {label:'small', value:'font-size-small'},
-        {label:'normal', value:'font-size-normal'},
-        {label:'Large', value:'font-size-large'},
-        {label:'Extra large', value:'font-size-extra-large'},
-    ]
+    const {t}=useTranslation();
+    const fontSizes=t('preferences.fontSize.types', {returnObjects:true}) as {label:string, value:string}[];
 
     const [selectedFontSize,setselectedFontSize]=useState<string>('font-size-normal');
   
@@ -23,5 +19,5 @@ export default function FontSizeSelector(){
         dispatch(setFontSize(fontSizeSelection));
     }
 
-    return <Select label='Font size' value={selectedFontSize} options={fontSizes} onChanger={handleChange} />
+    return <Select label={t('preferences.fontSize.label')} value={selectedFontSize} options={fontSizes} onChanger={handleChange} />
 }

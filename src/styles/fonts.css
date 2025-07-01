@@ -4,7 +4,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url(./../fonts/Noto_Sans_Telugu/NotoSansTelugu-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(/fonts/Noto_Sans_Telugu/NotoSansTelugu-VariableFont_wdth\,wght.ttf) format("truetype");
 }
 
 .bw-sans-telugu{
@@ -17,7 +17,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url(./../fonts/Noto_Serif_Telugu/NotoSerifTelugu-VariableFont_wght.ttf) format('truetype');
+  src: url(/fonts/Noto_Serif_Telugu/NotoSerifTelugu-VariableFont_wght.ttf) format("truetype");
 }
 
 .bw-serif-telugu {
@@ -30,7 +30,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 800;
-  src: url(./../fonts/Anek_Telugu/AnekTelugu-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(/fonts/Anek_Telugu/AnekTelugu-VariableFont_wdth\,wght.ttf) format("truetype");
 }
 
 .bw-anek-telugu {
@@ -43,7 +43,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300 900;
-  src: url(./../fonts/Matangi/Matangi-VariableFont_wght.ttf) format('truetype');
+  src: url(/fonts/Matangi/Matangi-VariableFont_wght.ttf) format("truetype");
 }
 
 .bw-matangi {
@@ -56,7 +56,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(./../fonts/Tiro_Devanagari_Hindi/TiroDevanagariHindi-Regular.ttf) format('truetype');
+  src: url(/fonts/Tiro_Devanagari_Hindi/TiroDevanagariHindi-Regular.ttf) format("truetype");
 }
 
 .bw-devanagari-hindi {
@@ -69,7 +69,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url(./../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+  src: url(/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
 }
 
 .bw-poppins {
@@ -82,7 +82,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url(./../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf) format("truetype");
 }
 
 .bw-roboto{
@@ -95,7 +95,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300 800;
-  src: url(./../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf) format("truetype");
 }
 
 .bw-open-sans {
@@ -108,7 +108,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url(./../fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+  src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
 }
 
 .bw-montserrat {
@@ -121,7 +121,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url(./../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf) format('truetype');
+  src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf) format("truetype");
 }
 
 .bw-inter {
@@ -134,7 +134,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400 700;
-  src: url(./../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf) format('truetype');
+  src: url(/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf) format("truetype");
 }
 
 .bw-dancing-script {
@@ -147,7 +147,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400 900;
-  src: url(./../fonts/Orbitron/Orbitron-VariableFont_wght.ttf) format('truetype');
+  src: url(/fonts/Orbitron/Orbitron-VariableFont_wght.ttf) format("truetype");
 }
 
 .bw-orbitron {

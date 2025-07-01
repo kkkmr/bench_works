@@ -1,13 +1,87 @@
 {
   "preferences": {
-    "title": "స్వాగతం",
-    "theme": "Theme",
-    "light": "Light",
-    "dark": "Dark",
+    "title": "బెంచ్ వర్క్స్",
     "language": "భాష",
-    "fontSize": "Font Size",
-    "small": "Small",
-    "medium": "Medium",
-    "large": "Large"
-  }
+    "theme": {
+      "label":"థీమ్",
+      "types":[
+        {
+          "label":"లైట్",
+          "value":"light"
+        },        
+        {
+          "label":"డార్క్",
+          "value":"dark"
+        },
+        {
+          "label":"బీచ్",
+          "value":"beach"
+        },
+        {
+          "label":"సమ్మర్",
+          "value":"summer"
+          
+        },
+        {
+          "label":"వింటర్",
+          "value":"winter"
+        }
+      ]
+    },
+    "font": {
+      "label":"ఫాంట్",
+      "types":[
+        {
+          "label":"సెరిఫ్ తెలుగు", 
+          "value":"bw-serif-telugu"
+        },
+        {
+          "label":"సాంస్ తెలుగు", 
+          "value":"bw-sans-telugu"
+        },
+        {
+          "label":"అనేక్ తెలుగు", 
+          "value":"bw-anek-telugu"
+        }
+      ]
+    },
+    "fontSize": {
+      "label":"ఫాంట్ సైజు",
+      "types":[
+        {
+          "label":"అతి చిన్న", 
+          "value":"font-size-extra-small"
+        },
+        {
+          "label":"చిన్న", 
+          "value":"font-size-small"
+        },
+        {
+          "label":"సాధారణం ", 
+          "value":"font-size-normal"
+        },
+        {
+          "label":"పెద్ద", 
+          "value":"font-size-large"
+        },
+        {
+          "label":"అతి పెద్ద", 
+          "value":"font-size-extra-large"
+        }
+      ]
+    }    
+  },
+  "sideNav":{
+      "title":"Side Nav",
+      "sideNavMenu":[
+        {
+          "label":"టు-డు",
+          "value":"todo"
+        },
+        {
+          "label":"కాంపోనెంట్స్",
+          "value":"components"
+        }
+      ]
+    }
 }

@@ -10,14 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource-variable/anek-telugu": "^5.2.6",
-    "@fontsource-variable/dancing-script": "^5.2.6",
-    "@fontsource-variable/noto-sans-telugu": "^5.2.6",
-    "@fontsource-variable/noto-serif-telugu": "^5.2.6",
-    "@fontsource-variable/orbitron": "^5.2.6",
-    "@fontsource-variable/roboto": "^5.2.6",
-    "@fontsource/hind": "^5.2.6",
-    "@fontsource/tiro-devanagari-hindi": "^5.2.6",
     "@reduxjs/toolkit": "^2.8.2",
     "@tailwindcss/vite": "^4.1.10",
     "i18next": "^25.2.1",
