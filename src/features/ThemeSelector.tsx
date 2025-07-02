@@ -1,6 +1,6 @@
 import Select from "../components/Select"
 import { useDispatch } from "react-redux"
-import {  useState } from "react";
+import {  useEffect, useState } from "react";
 import { setTheme } from './preferences/preferencesSlice';
 import { useTranslation } from 'react-i18next';
 
@@ -10,6 +10,10 @@ export default function ThemeSelector(){
     const {t}=useTranslation();
     const themes=t('preferences.theme.types', {returnObjects:true}) as {label:string, value:string}[];
     const [selectedTheme,setSelectedTheme]=useState<string>('light');
+
+    useEffect(()=>{
+        document.body.querySelector('.main-layout')?.classList.add(selectedTheme);
+    },[])
   
     const handleChange=(themeSelection:string)=>{
         setSelectedTheme(themeSelection);

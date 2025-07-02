@@ -3,9 +3,10 @@
     justify-content: space-between;
     padding-inline: 1rem;
     padding-block: 0.5rem;
-    background-color: var(--bw-bg-primary);
+    background: var(--bw-header-bg);
     align-items: center;
-    color:white;
+    color:var(--bw-header-text);
+    /* border-bottom: 2px solid #FFD59E; */
 
     /* .logo{
 

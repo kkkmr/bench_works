@@ -1,0 +1,6 @@
+.home-summer{
+    color:var(--bw-home-text);
+    background-image: url(./home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

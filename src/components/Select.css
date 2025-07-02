@@ -5,7 +5,7 @@
 
         .select-label{
                 position: absolute;
-                background-color: var(--bw-bg-primary);
+                background: var(--bw-select-label-bg);
                 font-weight: 500;
                 font-size: var(--bw-font-size-xs);
                 line-height: var(--bw-line-height-semi-normal);
@@ -21,7 +21,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                border:1px solid var(--bw-border-primary);
+                border:1px solid var(--bw-select-border);
                 font-size: var(--bw-font-size-sm);
                 line-height: var(--bw-line-height-normal);
                 padding-inline: var(--bw-padding-sm);
@@ -29,15 +29,14 @@
                 padding-bottom: var(--bw-padding-xs);
                 text-align:left;
                 width: 100%;
-                /*   text-sm */
         
                 &:hover{
-                        border-color: var(--bw-border-primary-hover);
+                        border-color: var(--bw-select-border-hover);
                 }
 
                 &:focus{
                         outline: none;
-                        box-shadow: 0 0 0 2px var(--bw-box-shadow);
+                        box-shadow: 0 0 0 2px var(--bw-select-box-shadow);
                 }
         }
 

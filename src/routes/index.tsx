@@ -1,11 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// import App from "../App";
 import MainLayout from "../layout/MainLayout";
-// import ToDo from "../pages/ToDo";
 import ToDo from "../pages/ToDo/ToDo"
 import Home from "../pages/Home"
 import Components from "../pages/Components";
-// import Select from "../components/Select";
 
 
 // const isAuthenticated=()=>{
