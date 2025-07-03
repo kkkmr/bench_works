@@ -10,7 +10,6 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: 'en',
     resources: {
       en: { preferences: en_preferences },
       hindi: { preferences: hindi_preferences },

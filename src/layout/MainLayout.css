@@ -1,7 +1,7 @@
 .main-layout{
     display:grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr 7fr;
+    grid-template-columns: auto 1fr;
 }
 
 .header{

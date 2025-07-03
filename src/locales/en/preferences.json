@@ -6,13 +6,17 @@
       "label":"Theme",
       "types":[
         {
-          "label":"Light",
-          "value":"light"
-        },        
-        {
           "label":"Dark",
           "value":"dark"
         },
+        {
+          "label":"Summer",
+          "value":"summer"
+        },
+        {
+          "label":"Light",
+          "value":"light"
+        },        
         {
           "label":"Beach",
           "value":"beach"
@@ -20,10 +24,6 @@
         {
           "label":"Winter",
           "value":"winter"
-        },
-        {
-          "label":"Summer",
-          "value":"summer"
         }
       ]
     },
@@ -86,7 +86,7 @@
     "title":"Side Nav",
     "sideNavMenu":[
       {
-        "label":"To-Do",
+        "label":"Tasks to do",
         "path":"/todo"
       },
       {

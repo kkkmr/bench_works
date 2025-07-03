@@ -1,17 +1,23 @@
-import { useDispatch, useSelector} from 'react-redux';
+import { useDispatch} from 'react-redux';
 import { useTranslation } from 'react-i18next';
-import { setLanguage } from './preferences/preferencesSlice';
-import type { RootState } from "../store";
+import { setPreferences} from './preferences/preferencesSlice';
 import Select from '../components/Select';
+import useAppSelector from '../hooks/useAppSelector';
+import { useEffect,useState } from 'react';
 
-export default function LocaleSelector() {
+const LocaleSelector=()=> {
   const dispatch = useDispatch();
   const { t, i18n } = useTranslation();
-  const language = useSelector((state:RootState) => state.preferences.language);
+  const [locale, setLocale] = useState<string>(useAppSelector((state) => state.preferences.language));
+
+  useEffect(()=>{
+    i18n.changeLanguage(locale);
+  },[locale])
 
   const changeLanguage = (lang: string) => {
-    dispatch(setLanguage(lang));
     i18n.changeLanguage(lang);
+    setLocale(lang);
+    dispatch(setPreferences({language:lang}));
   };
 
   const locales=[
@@ -20,5 +26,7 @@ export default function LocaleSelector() {
     {label:'हिन्दी', value:'hindi'}
   ]
 
-  return <Select options={locales} label={t('preferences.language')} value={language} onChanger={changeLanguage}/>
+  return <Select options={locales} label={t('preferences.language')} value={locale} onChanger={changeLanguage}/>
 }
+
+export default LocaleSelector;

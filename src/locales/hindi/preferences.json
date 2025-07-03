@@ -6,16 +6,8 @@
       "label":"थीम",
       "types":[
         {
-          "label":"लाइट",
-          "value":"light"
-        },        
-        {
           "label":"डार्क",
           "value":"dark"
-        },
-        {
-          "label":"बीच",
-          "value":"beach"
         },
         {
           "label":"समर",
@@ -23,8 +15,16 @@
           
         },
         {
+          "label":"बीच",
+          "value":"beach"
+        },
+        {
           "label":"विंटर",
           "value":"winter"
+        },
+        {
+          "label":"लाइट",
+          "value":"light"
         }
       ]
     },

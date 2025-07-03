@@ -6,16 +6,8 @@
       "label":"థీమ్",
       "types":[
         {
-          "label":"లైట్",
-          "value":"light"
-        },        
-        {
           "label":"డార్క్",
           "value":"dark"
-        },
-        {
-          "label":"బీచ్",
-          "value":"beach"
         },
         {
           "label":"సమ్మర్",
@@ -23,8 +15,16 @@
           
         },
         {
+          "label":"బీచ్",
+          "value":"beach"
+        },
+        {
           "label":"వింటర్",
           "value":"winter"
+        },
+        {
+          "label":"లైట్",
+          "value":"light"
         }
       ]
     },
