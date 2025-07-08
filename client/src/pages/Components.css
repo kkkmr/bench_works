@@ -1,0 +1,19 @@
+.components{
+
+    padding:1rem;
+    margin:1rem;
+
+    .select{
+
+        .select-label{
+            background-color: white;
+        }
+        .select-btn{
+            &:hover{
+                border-color:green;
+            }
+        }
+    }
+
+    
+}

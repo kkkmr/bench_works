@@ -1,0 +1,89 @@
+.dark{
+    --bw-bg-primary:var(--bw-gray-900);
+    --bw-border-primary:var(--bw-gray-400);
+    --bw-border-primary-hover:var(--bw-gray-500);  
+    --bw-box-shadow:var(--bw-vividblue-400);
+
+    --bw-header-bg:#d3e4fd;
+    --bw-header-text:#2D3C54;
+
+    --bw-footer-bg:#2D3C54;
+    --bw-footer-text:#FFFFFFCC;
+
+    --bw-side-nav-bg:#1F2A40;
+    --bw-side-nav-text:#D3E4FD;
+    --bw-side-nav-border-right:#6A7B96;
+
+    --bw-home-text:#D3E4FD;
+    --bw-home-bg-pic:url(./../pages/dark.png);
+
+    --bw-select-border:#BFCDE7;
+    --bw-select-border-hover:#6A7B96;
+    --bw-select-box-shadow:#4A90E2;
+    --bw-select-label-bg:#d3e4fd;
+    --bw-select-option-gb:#dummy;
+    --bw-select-option-text:#dummy;
+}
+
+.summer{
+    --bw-header-bg:#FBFFE6;
+    --bw-header-text:#2F2F2F;
+
+    --bw-footer-bg:#EDF6A1;
+    --bw-footer-text:#2F2F2F;
+
+    --bw-side-nav-bg:#D6EBD5;
+    --bw-side-nav-text:#2F2F2F;
+    --bw-side-nav-border-right:#FFDD99;
+
+    --bw-home-text:#2F2F2F;
+    --bw-home-bg-pic:url(./../pages/home.png);
+
+    --bw-select-border:#A3C9A8;
+    --bw-select-border-hover:#FFC660;
+    --bw-select-box-shadow:#D6EBD5;
+    --bw-select-label-bg:#FBFFE6;
+    --bw-select-option-gb:#dummy;
+    --bw-select-option-text:#dummy;
+}
+
+.light{
+    --bw-header-bg:var(--bw-blue-900);
+    --bw-header-text:white;
+
+    --bw-footer-bg:var(--bw-blue-900);
+    --bw-footer-text:white;
+    
+    --bw-side-nav-bg:var(--bw-blue-900);
+    --bw-side-nav-text:white;
+    --bw-side-nav-border-right:var(--bw-blue-400);
+
+    --bw-home-bg:linear-gradient(to top right, #DDF4FF, #FFEED9);
+    --bw-home-text:black;
+
+    --bw-select-border:var(--bw-gray-400);
+    --bw-select-border-hover:white;
+    --bw-select-box-shadow:var(--bw-vividblue-600);
+    --bw-select-label-bg:var(--bw-blue-900);
+}
+
+.beach{
+    --bw-bg-primary: var(--bw-sand-100);
+    --bw-border-primary: var(--bw-ocean-300);
+    --bw-border-primary-hover: var(--bw-coral-400);
+    --bw-box-shadow: var(--bw-seafoam-500);
+}
+
+.winter{
+    --bw-bg-primary: var(--bw-icegray-100);
+    --bw-border-primary: var(--bw-snowblue-300);
+    --bw-border-primary-hover: var(--bw-cranberry-400);
+    --bw-box-shadow: var(--bw-slate-600);
+}
+
+.tg{
+    --bw-bg-primary: var(--bw-deccanbrown-900); /* Deccan Brown 900 */
+    --bw-border-primary: var(--bw-pochampallypink-400); /* Pochampally Pink 400 */
+    --bw-border-primary-hover: var(--bwbonalu-yellow-500); /* Bonalu Yellow */
+    --bw-box-shadow: var(--bw-telanganablue-500); /* Telangana Blue */
+}

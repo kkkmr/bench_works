@@ -1,0 +1,49 @@
+.home {
+  position: relative;
+}
+
+.moon-container {
+    position: absolute;
+    width: 7em; 
+    height: 7em;
+    border-radius: 50%;
+    background-color: rgb(221, 238, 255,1); 
+    overflow: hidden; 
+    right: 0em;
+    top: 0em;
+    animation: moonGlow 20s linear forwards;
+}
+
+.moon-container::after {
+    content: '';
+    position: absolute;
+    width: 7em;
+    height: 7em;
+    top: -0.5em;
+    left: 0.5em;
+    border-radius: 50%;
+    background-color: rgb(13, 26, 45,0.1);
+    animation: moonCrescent 20s linear forwards;
+}
+
+@keyframes moonCrescent {
+    0% { transform: translateX(0.5em); } 
+    25% { transform: translateX(3.5em); } 
+    50% { transform: translateX(7em); }  
+    75% { transform: translateX(3.5em); }
+    100% { transform: translateX(0.5em); } 
+}
+
+@keyframes moonGlow {
+  0%, 100% {
+    box-shadow: 0 0 30px rgba(221, 238, 255, 0.8),
+                0 0 60px rgba(221, 238, 255, 0.5),
+                0 0 90px rgba(221, 238, 255, 0.3);
+  }
+  50% {
+    box-shadow:
+      0 0 100px 60px rgba(211, 228, 253, 0.8),
+      -60px 100px 120px rgba(211, 228, 253, 0.5),
+      0 0 240px rgba(211, 228, 253, 0.3);
+  }
+}

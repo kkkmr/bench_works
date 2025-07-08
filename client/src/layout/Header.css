@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    background: var(--bw-header-bg);
+    align-items: center;
+    color:var(--bw-header-text);
+    /* border-bottom: 2px solid #FFD59E; */
+
+    /* .logo{
+
+    } */
+
+    .logo-name{
+        font-size: var(--bw-font-size-4xl);
+    }
+
+}

@@ -1,0 +1,70 @@
+.select{
+        position: relative;
+        font-size: 1em;
+        /* max-width: 20em; */
+
+        .select-label{
+                position: absolute;
+                background: var(--bw-select-label-bg);
+                font-weight: 500;
+                font-size: var(--bw-font-size-xs);
+                line-height: var(--bw-line-height-semi-normal);
+                padding-inline: var(--bw-padding-xs);
+                border-radius: var(--bw-border-radius-3xs);
+                left:0.25em;
+                top:-0.5em;
+                margin-bottom:var(--bw-margin-2xs);
+        }
+
+        .select-btn{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border:1px solid var(--bw-select-border);
+                font-size: var(--bw-font-size-sm);
+                line-height: var(--bw-line-height-normal);
+                padding-inline: var(--bw-padding-sm);
+                padding-top:var(--bw-padding-sm);
+                padding-bottom: var(--bw-padding-xs);
+                text-align:left;
+                width: 100%;
+        
+                &:hover{
+                        border-color: var(--bw-select-border-hover);
+                }
+
+                &:focus{
+                        outline: none;
+                        box-shadow: 0 0 0 2px var(--bw-select-box-shadow);
+                }
+        }
+
+        .select-icon{
+                margin-left: 0.5rem;
+                transition:rotate 0.2s;
+        }
+
+        .options-container{
+                position: absolute;
+                z-index: 10;
+                margin-top: var(--bw-margin-2xs);
+                width: max-content;
+                min-width: 100%;
+                border-radius: var(--bw-border-radius-3xs);
+                border:1px solid;
+                background-color: white;
+                box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+                &:focus{
+                        outline: none;
+                }
+        }
+
+        .select-option{
+                cursor: pointer;
+                padding-inline: var(--bw-padding-sm);
+                padding-block: var(--bw-padding-xs);
+                font-size: var(--bw-font-size-sm);
+        }
+}

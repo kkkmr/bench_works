@@ -1,0 +1,126 @@
+{
+  "preferences": {
+    "title": "Bench Works",
+    "language":"Language",
+    "theme": {
+      "label":"Theme",
+      "types":[
+        {
+          "label":"Dark",
+          "value":"dark"
+        },
+        {
+          "label":"Summer",
+          "value":"summer"
+        },
+        {
+          "label":"Light",
+          "value":"light"
+        },        
+        {
+          "label":"Beach",
+          "value":"beach"
+        },
+        {
+          "label":"Winter",
+          "value":"winter"
+        }
+      ]
+    },
+    "font": {
+      "label":"Font",
+      "types":[
+        {
+          "label":"Roboto", 
+          "value":"bw-roboto"
+        },
+        {
+          "label":"Open Sans", 
+          "value":"bw-open-sans"
+        },
+        {
+          "label":"Montserrat", 
+          "value":"bw-montserrat"
+        },
+        {
+          "label":"Inter", 
+          "value":"bw-inter"
+        },
+        {
+          "label":"Dancing Script", 
+          "value":"bw-dancing-script"
+        },
+        {
+          "label":"Orbitron", 
+          "value":"bw-orbitron"
+        }
+      ]
+    },
+    "fontSize": {
+      "label":"Font Size",
+      "types":[
+        {
+          "label":"Extra small", 
+          "value":"font-size-extra-small"
+        },
+        {
+          "label":"Small", 
+          "value":"font-size-small"
+        },
+        {
+          "label":"Normal", 
+          "value":"font-size-normal"
+        },
+        {
+          "label":"Large", 
+          "value":"font-size-large"
+        },
+        {
+          "label":"Extra large", 
+          "value":"font-size-extra-large"
+        }
+      ]
+    }
+  },
+  "sideNav":{
+    "title":"Side Nav",
+    "sideNavMenu":[
+      {
+        "label":"Tasks to do",
+        "path":"/todo"
+      },
+      {
+        "label":"Components",
+        "path":"/components"
+      }
+    ]
+  },
+  "homePage":{
+    "title":"bench_works",
+    "showcase_statement":"This is where I experiment, explore, and exhibit the skills I love:<br/> React, TypeScript, Tailwind, accessibility, i18n, responsive design, and animation so smooth it has feelings.<br/> Whether you're here to peek at my code wizardry or just vibe with dropdowns that hover like divas—welcome to bench_works.",
+    "configurationFlex":[
+      { "flex":"✨ Prefer one lanugage over other? Got you." },
+      { "flex":"✨ Like Open sans over Roboto? Go bold." },
+      { "flex":"✨ Want font size cranked up to yell? We're legally loud." },
+      { "flex":"✨ Feel like switching from Summer to Beach to Winter in one click? Our vibes are dynamic." }
+    ],
+    "configurationDeclarations":[
+      { "declaration":"Your dashboard, your aesthetic, your settings—no judgment." },
+      { "declaration":"bench_works adjusts to you. Like a good UI should." }
+    ],
+    "featureCard":[
+      {
+        "title":"🎨 Theme Palettes",
+        "description":"Beach waves, winter frost, summer skies. Your UI dresses better than most humans."
+      },
+      {
+        "title":"🔤 Typography Playground",
+        "description":"Switch fonts like moods. Resize like you mean it. Accessibility approved."
+      },
+      {
+        "title":"🌐 Language Switcher",
+        "description":"English, తెలుగు, हिंदी—all wired up. Because your UI speaks your language. Literally."
+      }
+    ]
+  }
+}
