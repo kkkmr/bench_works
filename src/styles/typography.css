@@ -1,0 +1,61 @@
+.typography{
+
+    /* Font sizes */
+    --bw-font-size-4xs:0.125em;
+    --bw-font-size-3xs:0.25em;
+    --bw-font-size-2xs:0.5em;
+    --bw-font-size-xs: 0.75em;
+    --bw-font-size-sm: 0.875em;
+    --bw-font-size-base: 1em;
+    --bw-font-size-lg: 1.125em;
+    --bw-font-size-xl: 1.25em;
+    --bw-font-size-2xl: 1.5em;
+    --bw-font-size-3xl: 1.875em;
+    --bw-font-size-4xl: 2.25em;
+
+    /* Line heights */
+    --bw-line-height-tight: 1.25;
+    --bw-line-height-semi-normal:1.3333;
+    --bw-line-height-normal: 1.5;
+    --bw-line-height-loose: 1.75;
+
+    /* Font weights */
+    --bw-font-weight-light: 300;
+    --bw-font-weight-normal: 400;
+    --bw-font-weight-medium: 500;
+    --bw-font-weight-semibold: 600;
+    --bw-font-weight-bold: 700;
+
+    /* padding */
+    --bw-padding-3xs:0.125em;
+    --bw-padding-2xs:0.25em;
+    --bw-padding-xs:0.5em;
+    --bw-padding-sm: 0.75em;
+    --bw-padding-base: 1em;
+    --bw-padding-lg: 1.125em;
+    --bw-padding-xl: 1.25em;
+    --bw-padding-2xl: 1.5em;
+    --bw-padding-3xl: 1.875em;
+    --bw-padding-4xl: 2.25em;
+
+    /* margin */
+    --bw-margin-3xs:0.125em;
+    --bw-margin-2xs:0.25em;
+    --bw-margin-xs:0.5em;
+    --bw-margin-sm: 0.75em;
+    --bw-margin-base: 1em;
+    --bw-margin-lg: 1.125em;
+    --bw-margin-xl: 1.25em;
+    --bw-margin-2xl: 1.5em;
+    --bw-margin-3xl: 1.875em;
+    --bw-margin-4xl: 2.25em;
+
+    /* border-radius */
+    --bw-border-radius-3xs:0.125em;
+    --bw-border-radius-2xs:0.25em;
+    --bw-border-radius-xs:0.5em;
+    --bw-border-radius-sm: 0.75em;
+    --bw-border-radius-base: 1em;
+    --bw-border-radius-lg: 1.25em;
+    --bw-border-radius-xl: 1.5em;
+}

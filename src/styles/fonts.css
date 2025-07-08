@@ -1,0 +1,155 @@
+/* noto-sans-telugu-latin-wght-normal */
+@font-face {
+  font-family: 'Noto Sans Telugu Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/Noto_Sans_Telugu/NotoSansTelugu-VariableFont_wdth\,wght.ttf) format("truetype");
+}
+
+.bw-sans-telugu{
+    font-family:'Noto Sans Telugu Variable', sans-serif;
+}
+
+/* noto-serif-telugu-latin-wght-normal */
+@font-face {
+  font-family: 'Noto Serif Telugu Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/Noto_Serif_Telugu/NotoSerifTelugu-VariableFont_wght.ttf) format("truetype");
+}
+
+.bw-serif-telugu {
+  font-family: 'Noto Serif Telugu Variable', serif;
+}
+
+/* anek-telugu-latin-wght-normal */
+@font-face {
+  font-family: 'Anek Telugu Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url(/fonts/Anek_Telugu/AnekTelugu-VariableFont_wdth\,wght.ttf) format("truetype");
+}
+
+.bw-anek-telugu {
+  font-family: 'Anek Telugu Variable';
+}
+
+/* matangi-latin-wght-normal */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 900;
+  src: url(/fonts/Matangi/Matangi-VariableFont_wght.ttf) format("truetype");
+}
+
+.bw-matangi {
+  font-family: 'Hind', sans-serif;
+}
+
+/* tiro-devanagari-hindi-latin-400-normal */
+@font-face {
+  font-family: 'Tiro Devanagari Hindi';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/fonts/Tiro_Devanagari_Hindi/TiroDevanagariHindi-Regular.ttf) format("truetype");
+}
+
+.bw-devanagari-hindi {
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+/* Poppins */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+
+.bw-poppins {
+  font-family: 'Poppins', serif;
+}
+
+/* roboto-latin-wght-normal */
+@font-face {
+  font-family: 'Roboto Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf) format("truetype");
+}
+
+.bw-roboto{
+    font-family: 'Roboto Variable', sans-serif;
+}
+
+/* open-sans-latin-wght-normal */
+@font-face {
+  font-family: 'Open Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 800;
+  src: url(/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf) format("truetype");
+}
+
+.bw-open-sans {
+  font-family: 'Open Sans Variable', sans-serif;
+}
+
+/* montserrat-latin-wght-normal */
+@font-face {
+  font-family: 'Montserrat Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+.bw-montserrat {
+  font-family: 'Montserrat Variable', sans-serif;
+}
+
+/* inter-latin-wght-normal */
+@font-face {
+  font-family: 'Inter Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf) format("truetype");
+}
+
+.bw-inter {
+  font-family: 'Inter Variable', sans-serif;
+}
+
+/* dancing-script-latin-wght-normal */
+@font-face {
+  font-family: 'Dancing Script Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 700;
+  src: url(/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf) format("truetype");
+}
+
+.bw-dancing-script {
+  font-family: 'Dancing Script Variable', cursive;
+}
+
+/* orbitron-latin-wght-normal */
+@font-face {
+  font-family: 'Orbitron Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 900;
+  src: url(/fonts/Orbitron/Orbitron-VariableFont_wght.ttf) format("truetype");
+}
+
+.bw-orbitron {
+  font-family: 'Orbitron Variable', sans-serif;
+}

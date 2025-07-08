@@ -1,0 +1,23 @@
+.side-nav{
+    background-color: var(--bw-side-nav-bg);
+    padding-left: 1.5em;
+    padding-right:1.5em;
+    padding-block:1.5em;
+    transition: width ease-in 300ms;
+    position: relative;
+    color:var(--bw-side-nav-text);
+    border-right: 2px solid var(--bw-side-nav-border-right);
+
+    nav{
+        width: fit-content;
+    }
+
+    .menu-icon{
+        width: 2em;
+        display: inline-block;
+        svg{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
